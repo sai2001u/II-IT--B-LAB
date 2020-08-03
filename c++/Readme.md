@@ -9,6 +9,4 @@ To Display the names and roll numbers of students
 3.
 4.
 
-output obtained
 
-|[output](boxes.jpg)
