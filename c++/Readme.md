@@ -11,5 +11,5 @@ To Display the names and roll numbers of students
 
 output obtained
 
-|[output] (bhavya.jpg)
+|[output] (bhavya.png)
 
