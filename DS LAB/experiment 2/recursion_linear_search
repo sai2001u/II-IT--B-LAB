@@ -1,0 +1,12 @@
+# AIM OF THE EXPERIMENT
+   write a program using recursive function for linear search
+# step by step procedure 
+• Sequential search is used whenever the list is not ordered.
+• Generally we use the technique only for small lists or lists that are not searched often
+• In the sequential search , we start searching for the target from the beginning of the list, and we continue until the we find the target or 
+    until we are sure that it is not in the list.
+• This gives us two possibilities:
+   either we found it or we reach the end of the list
+   
+
+   
