@@ -17,7 +17,20 @@ one to identify the beginning of the list(mid)
 one to identify the beginning of the list(last)
 one to identify the beginning of the list(last)
 mid=( first + last )/2
-
+#step by step procedure explaining each output:
+First we have to sort the array ,after sorting we array is
+Array=[3,6,8,10,14,15,20,30,66,99]
+For output 1 the key value we need to be search 6
+For output 2 the key value we need to search 14
+For output 3 the key value we need to search 99
+By using loops and conditions we can obtain the output
+First we find the mid value mid value= low+high/2
+If key value is less than mid value ,we use mid-1
+If key value is greater than mid value ,we use mid +1
+At last in output we enter the element it to be found it gives its index or array value
+If the element is not in the list of the array its gives not found or error
+output obtained
+|[output](binaryrecursion1.jpg)(binaryrecursion2.jpg)(binaryrecursion3.jpg)
 
 
 
