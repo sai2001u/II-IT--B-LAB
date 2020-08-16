@@ -9,3 +9,10 @@ write a program using  iterative function  for linear search
           either we find it or
           we reach the end of the list
 # step by step procedure explaining each output
+A simple approach is to do linear search, i.e
+•	Start from the leftmost element of arr[] and one by one compare x with each element of arr[]
+•	If x matches with an element, return the index.
+•	If x doesn’t match with any of elements, return -1
+
+output obtained 
+|[output](itrativelinear1.png)(itrativelinear2.png)
