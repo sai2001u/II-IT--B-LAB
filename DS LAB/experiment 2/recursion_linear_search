@@ -7,6 +7,27 @@
     until we are sure that it is not in the list.
 • This gives us two possibilities:
    either we found it or we reach the end of the list
+   # explaning step by step each output:
+We have the array elements [10,6,8,15,20,3,14,99,66,30]
+For the output 1 the key element we need to search is 66
+In the iterative process we check if the element and the key value are same
+In the iteration  1 a[0] = 10 key is not equal to 66,so the case fails
+In the iteration 2 a[1] = 6 key is not equal to 66,so the case  fails
+Similary iteration continues until the element and the key value are same
+In the iteration 9 a[8] = 66 is equal to 66 ,so the case passed
+In the function the iteration takes place and the element with index printed to the output
+If all the iteration cases fails then it returns that the element is not found
+For the output 2 the key element we need to search is 0
+In the iterative process we check if the element and the key value are same
+In the iteration  1 a[0] = 10 key is not equal to 0,so the case fails
+In the iteration 2 a[1] = 6 key is not equal to 0,so the case  fails
+Similary iteration continues until the element and the key value are same
+after checking all the iteration the key value is not found
+So the output is the element is not found
+	
+
+output obtained:
+|[output](recursionlinearsearch1.png)(recursionlinearsearch2.png)
    
 
    
