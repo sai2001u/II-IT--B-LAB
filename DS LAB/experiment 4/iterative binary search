@@ -20,5 +20,15 @@ one to identify the beginning of the list(first)
 one to identify the beginning of the list(mid)
 one to identify the beginning of the list(last)
 mid=( first + last )/2
+Step by step procedure explaining the each output:
+Binary Search is a search algorithm that is used to find the position of an element (target value ) in a sorted array. The array should be sorted prior to applying a binary search.
+Binary search is also known by these names, logarithmic search, binary chop, half interval search.
+Working	
+The binary search algorithm works by comparing the element to be searched by the middle element of the array and based on this comparison follows the required procedure.
+Case 1 − element = middle, the element is found return the index.
+Case 2 − element > middle, search for the element in the sub-array starting from middle+1 index to n.
+Case 3 − element < middle, search for element in the sub-array starting from 0 index to middle -1
+output obtained:
+|[output](iterativebinarysearch1.png)(iterativebinarysearch2.png)(iterativebinarysearch3.png)
 
    
